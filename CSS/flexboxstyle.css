@@ -1,0 +1,39 @@
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+h1	{
+	text-align: center;
+}
+.leftcol {
+	float: left;
+	width: 45%;
+	background-color: blue;
+}
+.cleared {
+	display: flow-root;
+}
+.rightcol	{
+	float: right;
+	width: 45%;
+	background-color: yellow;
+}
+.flex-container	{
+	display: flex;
+	background-color: pink;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.flex-container > div {
+	background-color: lightblue;
+	padding: 10px;
+	margin: 10px;
+}
+img	{
+	width:200px;
+	height:130px;
+}
+.right {
+	float: right;
+}

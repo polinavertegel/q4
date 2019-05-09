@@ -1,0 +1,38 @@
+.logo	{
+	width: 87%;
+	margin-left: 80px;
+	border: solid 2px black;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #A8A9FA;
+	padding: 10px;
+	border: dashed black 5px;
+}
+h1	{
+	text-align: center;
+}
+.col1	{
+	width: 40%;
+	float: left;
+	padding: 7px;
+}
+.col2	{
+	width: 40%;
+	float: right;
+	padding: 7px;
+}
+.cleared	{
+	display: flow-root;
+}
+.smallimg	{
+	height:130px;
+	width:420px;
+}
+.left {
+	float: left;
+}
+body	{
+	background-color:#FAF9A8;
+}

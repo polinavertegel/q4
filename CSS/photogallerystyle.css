@@ -1,0 +1,36 @@
+.logo	{
+	width: 87%;
+	margin-left: 80px;
+	border: solid 2px black;
+}
+.wrapper {
+	width: 87%;
+	margin: 0 auto;
+	background-color: lightblue;
+	padding: 10px;
+	border: dashed #581845 5px;
+}
+.flex-container	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 5px;
+}
+.flex-container > div {
+	padding: 7px;
+	margin: 9px;
+	background-color: #F5AE21;
+	color: black;
+	border: solid 2px #581845;
+}
+body {
+	background-color: #FAF9A8;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.smallimg	{
+	height: 150px;
+	width: 300px;
+}
+img {
+	border: double black 4px;
+}
