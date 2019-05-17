@@ -1,0 +1,71 @@
+nav > a	{
+	display: inline;
+	text-decoration: none;
+	padding: 10px;
+}
+nav > a:hover {
+	background-color: #EC7E38;
+	border: none;
+}
+nav > a:visited	{
+	color: #E89D74;
+}
+nav	{
+	text-align: center;
+	background-color: #4f4e4d;
+	padding: 10px;
+}
+.logo	{
+	width: 100%;
+}
+.flex-container	{
+	display: flex;
+	flex-direction: row;
+}
+.left	{
+	float: left;
+}
+.right {
+	float: right;
+}
+h1	{
+	text-align: center;
+	font-size: 38px;
+	color: #E8834B;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #E8834B;
+}
+.imgsmall	{
+	width: 20%;
+	height: 70%;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.justify {
+	text-align: justify;
+	width: 80%;
+}
+.cleared	{
+	display: flow-root;
+}
+.marginleft {
+	margin-left: 40px;
+}
+.justify2 {
+	text-align: justify;
+	width: 70%;
+}
+hr {
+	display: block;
+	width: 100%;
+	border-width: 5px;
+	border-style: double;
+	color: #4f4e4d;
+}
+.marginbottom	{
+	margin-bottom: 25px;
+}
+.largerimg	{
+	width: 25%;
+	height: 75%;
+}
