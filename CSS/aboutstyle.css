@@ -68,4 +68,22 @@ hr {
 .largerimg	{
 	width: 25%;
 	height: 75%;
+	padding-left: 6px;
+}
+@media screen and (max-width: 600px) {
+	nav	> a {
+	display: block;
+	}
+	.imgsmall	{
+		width: 50%;
+	}
+	.largerimg	{
+		width: 50%;
+	}
+	h1	{
+		color: #4f4e4d;
+	}
+	hr {
+		color: #E8834B;
+	}
 }

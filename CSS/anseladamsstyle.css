@@ -185,9 +185,24 @@ footer	{
 	border-style: solid;
 	border-width: 1px;
 	position: absolute;
-	height: 50px;
+	height: 52px;
 	margin-top: 16px;
 }
 a:visited	{
 	color: #E89D74;
+}
+@media screen and (max-width: 600px) {
+	.flex-container	{
+	flex-direction: column;
+	}
+	.right {
+	width: 50%;
+	}
+	nav	> a {
+	display: block;
+	}
+	#hr2 {
+	height: 87px;
+	margin-left: 3px;
+	}
 }
